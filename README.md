@@ -29,33 +29,35 @@ This project trains a binary text classifier to detect Heavy Menstrual Bleeding 
 
 1. Clone or download this repository
 
-'''git clone https://github.com/chelseazwang/project.git'''
+```git clone https://github.com/chelseazwang/project.git```
 
 2. Create and activate a conda environment:
 
-'''conda create -n hmb_project python=3.10 -y'''
-'''conda activate hmb_project'''
+
+```conda create -n hmb_project python=3.10 -y```
+```conda activate hmb_project```
+
 
 3. Install dependencies:
 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 4. Make the bash script executable:
 
-'''chmod +x run.sh'''
+```chmod +x run.sh```
 
 ## Running the Code
 
 1. Option 1: Run with bash script (recommended)
 
-'''./run.sh'''
+```./run.sh```
 
 This will activate the environment, run training, and save output to train.log.
 
 2. Option 2: Run Jupyter notebook
 
-'''conda activate hmb_project'''
-'''jupyter notebook'''
+```conda activate hmb_project```
+```jupyter notebook```
 Open notebooks/train.ipynb and run all cells
 
 ## Expected Output
