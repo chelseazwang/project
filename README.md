@@ -68,8 +68,8 @@ After training completes, you should see:
 
 * Validation Accuracy: Printed to console/log
 * F1 Score: Printed to console/log
-* Confusion Matrix: Saved as confusion_matrix.png
-* Training Log: Saved as train.log (if using run.sh); full output in train_executed.ipynb in notebooks/
+* Confusion Matrix: Printed to console/log
+* Training Log: Saved as train.log (if using run.sh); full output located in train_executed.ipynb in notebooks/
 
 ## Model Details
 
